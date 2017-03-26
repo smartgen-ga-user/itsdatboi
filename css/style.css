@@ -1,0 +1,64 @@
+body {
+  font-family: Comic Sans Ms
+}
+
+h1 {
+  background-color: pink;
+  color: Turquoise;
+  font-size: 50px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section {
+  padding: 10px;
+  max-width: 960px;
+  margin: auto;
+  background-color: white;
+}
+
+.alternate-color {
+  color: white;
+}
+
+.main-header {
+  height: 420px;
+  background-image: url(https://i.ytimg.com/vi/2wOyVxAz8I8/maxresdefault.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.intro {
+  font-size: 1.4em;
+  text-align: center;
+  padding: 20px;
+}
+
+.section-header {
+  height: 200px;
+  border-top: 3px solid grey;
+  background-image: url(http://a2.mzstatic.com/us/r30/Purple20/v4/b5/c2/c4/b5c2c46d-e32b-48ac-fc61-9a2821f1405c/sc552x414.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.alternate-color:hover {
+  color: brown;
+}
